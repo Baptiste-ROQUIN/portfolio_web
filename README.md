@@ -21,3 +21,10 @@ le portfolio a ajouter à mon CV
 
     - C++ (perso livre)
     - UNITY (tuto YTB) 
+
+
+# Inspiration
+
+- https://www.procoder09.com/professional-portfolio-website-with-html-css-and-js/
+- vert de base : 077b32
+
