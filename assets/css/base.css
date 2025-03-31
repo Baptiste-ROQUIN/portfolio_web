@@ -251,3 +251,7 @@ section{
 #about, #projects, #contact {
   padding-top: 100px;
 }
+
+.card-text {
+    color: #03224C;
+}
