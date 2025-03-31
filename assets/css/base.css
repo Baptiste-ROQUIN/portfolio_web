@@ -252,6 +252,52 @@ section{
   padding-top: 100px;
 }
 
+.competence-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.competence-container>div {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.competence-container>div:nth-child(2) {
+    flex-grow: 10;
+
+}
+
 .card-text {
     color: #03224C;
+}
+
+/* Ajout de la section des compétences */
+.skills-container {
+    max-width: 600px;
+    margin: auto;
+}
+.skill {
+    margin: 15px 0;
+    text-align: left;
+}
+.skill span {
+    font-weight: bold;
+
+}
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.progress {
+    height: 20px;
+    background-color: red;
+    width: 50%;
+    transition: width 1.5s ease-in-out;
 }
